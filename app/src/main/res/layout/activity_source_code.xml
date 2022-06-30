@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".SourceCodeActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:elevation="30dp">
+
+                <ImageView
+                    android:id="@+id/output"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    app:layout_constraintBottom_toTopOf="@+id/sourcecode"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/stars" />
+
+                <TextView
+                    android:id="@+id/source"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source Code"
+                    android:textColor="#ffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/sourcecode"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/output" />
+
+                <TextView
+                    android:id="@+id/sourcecode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Source Code"
+                    android:textSize="20dp"
+                    android:layout_below="@id/source"
+                    android:layout_centerHorizontal="true"
+                    app:layout_constraintBottom_toTopOf="@+id/videoButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/output" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="135dp"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="150dp"
+                    android:text="OUTPUT"
+                    android:textColorHighlight="@color/black"
+                    android:layout_below="@id/sourcecode"
+                    android:textSize="25sp"
+                    android:textColor="#ffff"
+                    android:textStyle="italic|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/videoButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sourcecode" />
+
+
+                <ImageView
+                    android:id="@+id/videoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView9"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerHorizontal="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sourcecode"
+                    app:srcCompat="@drawable/youtube" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#ffff"
+                    android:text="To get the explanation video click on the output image!"
+                    android:textColorHighlight="@color/black"
+                    android:textSize="20sp"
+                    android:layout_below="@id/videoButton"
+                    android:layout_centerHorizontal="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/videoButton" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

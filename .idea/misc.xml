@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/drawable/cut_card_background.xml" value="0.1575" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/drawable/side_nav_bar.xml" value="0.1035" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout-land/activity_dashboard.xml" value="0.152" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_about.xml" value="0.22083333333333333" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_drawer_base.xml" value="0.18127404873877725" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_forgot_password.xml" value="0.22083333333333333" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_login.xml" value="0.22083333333333333" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_notes.xml" value="0.1085934159897392" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_privacy_policy.xml" value="0.264" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_quiz.xml" value="0.18127404873877725" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_register.xml" value="0.536" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_source_code.xml" value="0.22083333333333333" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/activity_terms_conditions.xml" value="0.21599592460519612" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.22083333333333333" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/layout/notesdesign.xml" value="0.36255924170616116" />
+        <entry key="..\:/Angelus 5th Sem/C For Coding/C For Coding/app/src/main/res/menu/activity_main_drawer.xml" value="0.18127404873877725" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_about.xml" value="0.18127404873877725" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_dashboard.xml" value="0.18127404873877725" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_login.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_miscellaneous_program.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_privacy_policy.xml" value="0.4" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_question.xml" value="0.2" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_quiz.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_source_code.xml" value="0.2" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/activity_terms_conditions.xml" value="0.19521178637200737" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/content_layout.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/custom_list_view.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/layout/notesdesign.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/menu/activity_main_drawer.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/manis/OneDrive/Desktop/MCA Project/C For Coding/C For Coding/app/src/main/res/menu/navigation_drawer.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.10400000000000001" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

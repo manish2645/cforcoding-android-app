@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3aa8c1"
+    tools:context=".QuizActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:columnCount="1"
+        android:rowCount="1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:backgroundTint="#9874a7"
+            android:layout_columnWeight="0"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:elevation="50dp"
+            app:cardCornerRadius="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Welcome to C For Coding Quiz"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:textAlignment="center"
+                    android:src="@drawable/programming"
+                    android:layout_gravity="center"/>
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Name"
+                    android:textSize="25sp"
+                    android:textAlignment="center"/>
+
+                <Button
+                    android:id="@+id/StartQuiz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start"
+                    android:backgroundTint="#080808"
+                    android:textColor="#fff"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</RelativeLayout>

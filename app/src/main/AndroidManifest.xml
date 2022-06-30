@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bytecode.cforcoding">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFIK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name="com.bytecode.cforcoding.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.bytecode.cforcoding.QuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.bytecode.cforcoding.TermsConditions"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.PrivacyPolicy"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.SourceCodeActivity"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.NumberPattern"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.UploadNotes"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.NotesActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.ViewPdf"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.NotesActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.MiscellaneousProgram"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.SymbolPattern"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.AlphabetPattern"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.NumberPattern"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.AboutActivity"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.NotesActivity"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity" />
+        <activity
+            android:name="com.bytecode.cforcoding.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.bytecode.cforcoding.DashboardActivity"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.DashboardActivity" />
+        <activity
+            android:name="com.bytecode.cforcoding.DrawerBase"
+            android:exported="false" />
+        <activity
+            android:name="com.bytecode.cforcoding.ForgotPasswordActivity"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.LoginActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.RegisterActivity"
+            android:exported="false"
+            android:parentActivityName="com.bytecode.cforcoding.LoginActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.LoginActivity"
+            android:parentActivityName="com.bytecode.cforcoding.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.bytecode.cforcoding.SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bytecode.cforcoding.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

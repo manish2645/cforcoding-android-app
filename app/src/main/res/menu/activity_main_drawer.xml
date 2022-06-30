@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_dashboard"
+            android:title="DashBoard" />
+        <!--  <item
+            android:id="@+id/nav_compiler"
+            android:icon="@drawable/ic_profile"
+            android:title="C Compiler" />
+        -->
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_quiz"
+            android:title=" C Quiz" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_term_condition"
+            android:icon="@drawable/ic_terms"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+    <!--    <item
+            android:id="@+id/nav_hack_rank"
+            android:icon="@drawable/ic_open"
+            android:title="Open HackerRank" />  -->
+    </group>
+</menu>

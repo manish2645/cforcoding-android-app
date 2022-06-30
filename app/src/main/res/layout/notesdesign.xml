@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardCornerRadius="8dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:background="@drawable/side_nav_bar"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pdf" />
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is title of book"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/img1"/>
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/img1">
+
+            <ImageView
+                android:id="@+id/readbook"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_book"/>
+            <TextView
+                android:id="@+id/textviewbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3000k"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"/>
+            <ImageView
+                android:id="@+id/likebook"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/ic_like"/>
+            <TextView
+                android:id="@+id/textlike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10k"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"/>
+            <ImageView
+                android:id="@+id/dislikebook"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/ic_dislike"/>
+            <TextView
+                android:id="@+id/textdislike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+-->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
