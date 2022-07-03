@@ -66,7 +66,7 @@ Feasibility Report :
 Download Instruction : 
     
     Step 1 : Download the project
-    Step 2 : Unzip the project
+    Step 2 : Clone repository the project
     Step 3 : Open Android Studio
     Step 4 : Load the project to Android IDE
     
