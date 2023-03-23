@@ -1,5 +1,7 @@
 # C-For-Coding
 
+Live Playstore: https://play.google.com/store/apps/details?id=com.insanecoders.cforcoding
+
 C Programming Tutorials App for Beginners
 
 C for Coding is an educational application which is suitable for all types of coders be it high school or graduates. This application aims at not just merely providing code for programs rather than a video tutorial too which will help  develop and understand logic.This app will contain organized collection of programs based on number,alphabet ,pattern and miscellaneous programming. It will also contain the user’s profile and some basic programming quiz.
